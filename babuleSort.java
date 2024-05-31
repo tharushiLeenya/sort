@@ -1,6 +1,6 @@
-public class javaClass{
+public class bubbleSort{
 public static void main(String [] arguments){
-int arr[] ={2,4,6,8,10,6,9,4,5};
+int arr[] ={2,24,14,7,55};
 int length =arr.length;
 System.out.print("UnSorted array :");
 for(int i=0;i<length;i++)
