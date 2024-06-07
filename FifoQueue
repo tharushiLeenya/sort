@@ -1,0 +1,19 @@
+import java.util.Queue; 
+import java.util.LinkedList; 
+ 
+public class Main { 
+    public static void main(String[] args) { 
+        // Create a FIFO queue using LinkedList 
+        Queue<String> fifoQueue = new LinkedList<>(); 
+ 
+        // Add elements to the queue 
+        fifoQueue.offer("A"); 
+        fifoQueue.offer("B"); 
+        fifoQueue.offer("C"); 
+ 
+        // Remove and print elements from the queue 
+        while (!fifoQueue.isEmpty()) { 
+            System.out.println(fifoQueue.poll()); 
+        } 
+    } 
+} 
